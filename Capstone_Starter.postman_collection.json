@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "a988df5f-1dee-4e23-a3bc-18e60ac1f9ae",
-		"name": "Social Media Starter Copy",
+		"_postman_id": "fd6fc3b7-6fd7-4e1d-b944-c659441e8f47",
+		"name": "Capstone_Starter",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "POST register a user",
+			"name": "Register_User",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -20,12 +20,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/users/register",
+					"raw": "http://localhost:5000/api/users/register",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3000",
+					"port": "5000",
 					"path": [
 						"api",
 						"users",
@@ -36,7 +36,7 @@
 			"response": []
 		},
 		{
-			"name": "POST login existing user",
+			"name": "Login_User",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -66,17 +66,16 @@
 			"response": []
 		},
 		{
-			"name": "GET all users",
+			"name": "Get_All_Users",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/users",
+					"raw": "http://localhost5000/api/users",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"localhost5000"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"users"
@@ -86,7 +85,7 @@
 			"response": []
 		},
 		{
-			"name": "DELETE a user (if admin and authorized)",
+			"name": "Delete_User (Auth, Admin)",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -97,12 +96,12 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/api/users/61a7c0032749745ac3c87598",
+					"raw": "http://localhost:5000/api/users/61a7c0032749745ac3c87598",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3000",
+					"port": "5000",
 					"path": [
 						"api",
 						"users",
